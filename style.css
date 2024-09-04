@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /*line-height: 1rem;*/
+}
+
+h3{
+    font-size: 1.5rem;
+    color:hsl(332, 51%, 32%) ;
+
+}
+.prepTime{
+    width: 80%;
+    margin: 0 auto 0 1rem;
+    background-color: hsl(330, 100%, 98%);
+    padding: 0 1rem;
+    ul li::marker {/* the mark psaudo class*/
+        color: hsl(332, 51%, 32%); /* Change this to the desired bullet color I hope thses is standard */
+    }
+}
+span{
+    font-weight: 600;
+}
+
+.line{
+    /*Helped by Chatgpt ,I had no idea how i was going create the 3 lines*/
+    display: block; 
+    width: 80%; 
+    height: 2px; 
+    background-color:  rgba(0, 0, 0, 0.2); 
+    margin: 20px 0; 
+    font-weight: lighter;
+
+}
+
+h2{
+    color:hsl(14, 45%, 36%);
+}
+
+section{
+    ul li::marker {/* the mark psaudo class*/
+        color: hsl(14, 45%, 36%); /* Change this to the desired bullet color I hope thses is standard */
+    }
+
+    ol li::marker {/* the mark psaudo class*/
+        color: hsl(14, 45%, 36%); /* Change this to the desired bullet color I hope thses is standard */
+    }
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.none ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    /*text-align: left;
+    margin-right: auto;*/
+    /*Failing to left alight text*/
+}
+
+.none ul li span{
+    color: hsl(14, 45%, 36%) 
+}
+
+
+
+@media screen and (max-width: 425px ){
+    .omelette{
+        max-width: 100%;  /*
+        I struggled to fill the image to a height and width of 100% for small screen
+      */
+    }
+    h1{
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+    body{
+        font-size: 1rem;
+    }
+
+
+}
+@media screen and (min-width: 768px ){
+
+    .main{
+        max-width: 40%;
+        /*border: 1px solid grey;*/
+        border-radius: 1rem;
+        margin: 2rem;
+        padding: 1rem;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .omelette{
+        max-width: 100%; 
+        border-radius: 1rem;
+    }
+    h1{
+        font-size: 4rem;
+       
+    }
+
+    body{
+        background-color:hsl(30, 54%, 90%);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 2rem;
+    }
+
+    
+}
