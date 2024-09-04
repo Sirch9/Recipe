@@ -94,7 +94,11 @@ hr{
 @media screen and (min-width: 768px ){
 
     .main{
+<<<<<<< HEAD
         max-width: 50%;
+=======
+        max-width: 60%;
+>>>>>>> d322e064cc00041a16fdda79ae7b5939d7d0b4b8
         /*border: 1px solid grey;*/
         border-radius: 1rem;
         margin: 2rem;
@@ -106,7 +110,11 @@ hr{
         border-radius: 1rem;
     }
     h1{
+<<<<<<< HEAD
         font-size: 3rem;
+=======
+        font-size: 2rem;
+>>>>>>> d322e064cc00041a16fdda79ae7b5939d7d0b4b8
        
     }
 
