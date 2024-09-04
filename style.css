@@ -94,7 +94,7 @@ hr{
 @media screen and (min-width: 768px ){
 
     .main{
-        max-width: 40%;
+        max-width: 60%;
         /*border: 1px solid grey;*/
         border-radius: 1rem;
         margin: 2rem;
@@ -106,7 +106,7 @@ hr{
         border-radius: 1rem;
     }
     h1{
-        font-size: 4rem;
+        font-size: 2rem;
        
     }
 
